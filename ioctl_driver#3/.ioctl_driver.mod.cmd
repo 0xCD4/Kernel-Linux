@@ -1,0 +1,1 @@
+savedcmd_/home/noob/kernel-programming/Kernel-Linux/ioctl_driver#3/ioctl_driver.mod := printf '%s\n'   ioctl_driver.o | awk '!x[$$0]++ { print("/home/noob/kernel-programming/Kernel-Linux/ioctl_driver$(pound)3/"$$0) }' > /home/noob/kernel-programming/Kernel-Linux/ioctl_driver$(pound)3/ioctl_driver.mod

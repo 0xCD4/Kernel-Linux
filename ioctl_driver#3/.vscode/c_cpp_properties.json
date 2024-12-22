@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-$(uname -r)/include",
+                "/usr/src/linux-headers-$(uname -r)/arch/x86/include",
+                "/usr/src/linux-headers-$(uname -r)/arch/x86/include/generated",
+                "/usr/src/linux-headers-$(uname -r)/include/uapi",
+                "/usr/src/linux-headers-$(uname -r)/arch/x86/include/uapi"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE",
+                "KBUILD_MODNAME=\"ioctl_driver\"",
+                "__GNUC__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+} 

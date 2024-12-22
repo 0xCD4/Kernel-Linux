@@ -1,0 +1,1 @@
+savedcmd_/home/noob/kernel-programming/Kernel-Linux/ioctl_driver#3/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/noob/kernel-programming/Kernel-Linux/ioctl_driver$(pound)3/Module.symvers -T /home/noob/kernel-programming/Kernel-Linux/ioctl_driver$(pound)3/modules.order -i Module.symvers -e 
