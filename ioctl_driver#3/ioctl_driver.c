@@ -123,5 +123,5 @@ module_init(ioctl_driver_init);
 module_exit(ioctl_driver_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("Shadowintel");
 MODULE_DESCRIPTION("A simple IOCTL driver"); 
