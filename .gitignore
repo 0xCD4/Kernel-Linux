@@ -1,0 +1,8 @@
+# Compiled files
+*.o
+kernel_address
+
+# OS specific
+.DS_Store
+.vscode/
+~/
